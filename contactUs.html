@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="Photos/logo.jpg" />
+    <meta charset="utf-8" />
+    <title>יצירת קשר </title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+    <div id="container">
+
+        <header style=" height: 100px;">
+            <section>
+                <div id="connectionwithus">
+                    <h1>יצירת קשר </h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html"><img src="Photos/logo.jpg" /></a>
+                        </li>
+                        <li>
+                            <a id="txt" href="#"> מקומות לטייל</a>
+                            <ul>
+                                <li><a href="#" class="notActive">ארצות הברית</a></li>
+                                <li><a href="#" class="notActive">הודו</a></li>
+                                <li><a href="#" class="notActive">אוסטרליה</a></li>
+                                <li>
+                                    <a href="#">דרום אמריקה</a>
+                                    <ul>
+                                        <li><a href="preu.html">פרו</a></li>
+                                        <li><a href="#" class="notActive">ארגנטינה</a></li>
+                                        <li><a href="#" class="notActive">ברזיל</a></li>
+                                        <li><a href="#" class="notActive">קובה</a></li>
+                                        <li><a href="#" class="notActive">מקסיקו</a></li>
+                                        <li><a href="#" class="notActive">קולמוביה</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="moreplaces.html">מקומות נוספים</a></li>
+                            </ul>
+
+                        </li>
+                        <li>
+                            <a id="txt" href="#">אריזה נכונה</a>
+                            <ul>
+                                <li><a href="#" class="notActive">טרולי</a></li>
+
+                                <li><a href="#" class="notActive">מזוודה</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a id="txt" href="#">מקומות בילוי</a>
+                            <ul>
+                                <li><a href="#" class="notActive">מסעדות</a></li>
+                                <li><a href="#" class="notActive">פארקי שעשועים </a></li>
+                                <li><a href="#" class="notActive">קניונים</a></li>
+                                <li><a href="#" class="notActive">מוזיאונים</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a id="txt" href="#" class="notActive">טיפים לטיול  </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </section>
+        </header>
+
+        <h2 id="connectionnn">מילוי טופס ליצירת קשר איתנו </h2>
+        <form id="pageus">
+            <br />
+            <br />
+            <br />
+            <p class="req" id="must">* שדה חובה</p>
+            <label for="name"></label>
+            <span class="O"></span> *שם מלא: <br />
+
+            <input type="text" id="name1" required aria-required="true" placeholder=" שם  פרטי משפחה " class="contactForm" />
+           
+            <label for="phone"></label>
+            <span class="FLY"></span> טלפון נייד: <br />
+            <input type="text" id="name1" required aria-required="true" placeholder=" טלפון נייד " class="contactForm" />
+
+
+
+
+
+          
+            <label for="mail"></label>
+            <span class="FLY"></span> איימל: <br />
+            <input type="text" id="name1" required aria-required="true" placeholder=" מייל " class="contactForm" />
+
+            <br />
+            <br />
+            <br />
+            <fieldset>
+                <legend>
+                    מגדר: <br />
+                </legend>
+                <label for="male">
+                    <input type="radio" id="male" name="gender" /> זכר<br />
+                </label>
+                <label for="female">
+                    <input type="radio" id="female" name="gender" /> נקבה
+                </label>
+            </fieldset>
+
+
+
+
+            <br />
+            <div class="Forspan">
+                <span class="required" required aria-required="true">* </span>תכנון טיול ל. <br />
+                <select id="contactForm">
+                    <option value="1" selected>נא לבחור ערך</option>
+                    <option value="2">פרו</option>
+                    <option value="3">ארצות הברית</option>
+                    <option value="4">דובאי</option>
+                    <option value="5">הודו</option>
+                    <option value="6">אוסטרליה</option>
+                    <option value="6">מקומות נוספים</option>
+
+                </select>
+            </div>
+
+
+            <br />
+
+            <div class="howmuch">
+                <span class="required" required aria-required="true"> </span> *כמות נוסעים   <br />
+                <select id="contactFormie">
+                    <option value="1" selected>נא לבחור ערך</option>
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                    <option value="4">3</option>
+                    <option value="5">4</option>
+                    <option value="6">5</option>
+                    <option value="6">6 ומעלה</option>
+
+                </select>
+
+
+
+                <br /><br />
+                <label for="myTextarea" required aria-required="true">
+                    <span class="required">* </span> מה שאנחנו צריכים לדעת? <br />
+                    <textarea id="myTextarea" placeholder="" rows="6" class="contactForm"></textarea>
+                </label>
+                <br /><br />
+                <label for="sendForm">
+                    <input type="submit" id="sendForm" value="שלח טופס" />
+                </label>
+
+        </form>
+        </section>
+        </form>
+        </section>
+
+
+        <foter>
+
+            <div id="downoftheweb">
+                <nav id="downwebtext">
+
+                    <ul>
+
+                        <li><a href="about.html">אודות</a></li>
+                        <li><a href="siteMap.html">מפת האתר</a></li>
+                        <li><a href="contactUs.html">צור קשר</a></li>
+
+
+                    </ul>
+
+                    <div id="downweb" class="darkgreeni"></div>
+                </nav>
+
+
+
+
+            </div>
+
+
+
+        </foter>
+
+    </div>
+
+</body>
+</html>

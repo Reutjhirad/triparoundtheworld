@@ -1,0 +1,949 @@
+﻿body {
+    direction: rtl;
+    background-size: 1280px;
+    background-color:azure;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#container {
+    width: 1280px;
+    height: 2004px;
+    margin: 0 auto;
+    box-shadow: -25px 0px 25px -24px #5d5656, 25px 0px 25px -24px #5d5656;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    float: right;
+}
+
+/*לוגו*/
+nav li a img {
+    width: 110px;
+    height: 80px;
+    position: absolute;
+    top: -142px;
+    right: 87px;
+    padding: 35px;
+}
+/*פס ירוק של התפריט*/
+nav ul {
+    width: 1280px;
+    height: 78px;
+    text-align: center;
+    background-color:honeydew;
+    margin: 0 auto;
+    
+}
+/*כותרות*/
+#opentheweb {
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 78px;
+    text-align: center;
+    padding: 0px;
+    text-shadow: 0 10px 9px #c4b59d, 0 -6px 4px #5d5656;
+}
+/*תפריט ניווט*/
+nav ul li a {
+    display: block;
+    color: black;
+    width: 240px;
+    height: 30px;
+    position: relative;
+    text-decoration: none;
+    top: 29px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 22px;
+    margin-top: -2px;
+    padding: 2px;
+    right: -122px;
+}
+
+
+/*מעבר עכבר על התפריט*/
+nav ul li:hover ul {
+    width: 2px;
+    display: block;
+
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+
+nav ul li ul {
+     margin-top: -16px; 
+     display: none;
+    position: absolute;
+    margin-right: 93px;
+    z-index: 1;
+}
+
+
+    nav ul li ul li ul {
+        display: none;
+        position: absolute;
+        margin-top: -30px;
+        margin-right: 111px;
+        background-color: white;
+    }
+
+nav > ul > li > ul li a {
+    width: 104px;
+    font-size: 13pt;
+    border: 2px solid #efe5e4;
+    border-radius: 12px;
+    background-color: white;
+}
+
+
+#Text1 {
+   
+    color: black;
+   
+    position: relative;
+    text-decoration: none;
+    top: 29px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 22px;
+    margin-top: -2px;
+    padding: 2px;
+}
+
+#trip {
+    font-size: 40px;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    top: 29px;
+    text-align:right;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-top: 108px;
+    padding: 2px;
+    margin-right: 111px;
+}
+#img1 img {
+    float: right;
+    width: 250px;
+    height: 250px;
+    right: 203px;
+    margin-top: 54px;
+    position: absolute;
+}
+#img2 img {
+    /*    float: left;*/
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top: 54px;
+    right: 600px;
+}
+#img3 img {
+    /*    float: left;*/
+    width: 250px;
+    height: 250px;
+
+    margin-top: 54px;
+    position: absolute;
+    top: 289px;
+    right:170px;
+    padding: 35px;
+}
+#img4 img {
+    /*    float: left;*/
+    width: 250px;
+    height: 250px;
+    margin-top: 54px;
+    position: absolute;
+    top: 289px;
+    right: 567px;
+    padding: 35px;
+
+}
+
+#h3 {
+    font-size: 40px;
+    position: absolute;
+    top: 289px;
+    
+}
+.notActive {
+    cursor: not-allowed;
+    color: #666;
+}
+
+#preutrip {
+    color:darkslategray;
+    position: relative;
+    text-decoration: none;
+    top: 29px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 45px;
+    margin-top: 600px;
+    padding: -8px;
+    right:-386px;
+}
+#peruyxt {
+    color: darkslategray;
+    position: relative;
+    text-decoration: none;
+    top: 29px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 25px;
+    margin-top: 9px;
+    padding: 43px;
+    right: -303px;
+}
+
+#preuu {
+    position: relative;
+    right: -494px;
+    padding: 43px;
+    margin-top: 9px;
+    color:black;
+}
+
+#Text3 {
+    color: black;
+    position: relative;
+    text-decoration: none;
+    top: -67px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 30px;
+    margin-top: -2px;
+    padding: 2px;
+}
+
+#moreplacess {
+    color: darkslategray;
+    position: relative;
+    text-decoration: none;
+    top: -67px;
+    right: -324px;
+    font-family: Calibri;
+    font-size: 45px;
+    margin-top: 428px;
+    padding: 2px;
+}
+#moreplace {
+    color: black;
+    position: relative;
+    top: -67px;
+    right: -394px;
+    font-size: 27px;
+    margin-top: 60px;
+    font-family: Calibri;
+}
+#place {
+    color: black;
+    position: relative;
+    top: -55px;
+    right: -412px;
+    font-size: 25px;
+    margin-top: 60px;
+    font-family: Calibri;
+}
+#img5 img {
+    width: 300px;
+    height: 300px;
+    margin-top: 54px;
+    position: absolute;
+    top: 289px;
+    right: 800px;
+    padding: 35px;
+    margin-top: 1000px;
+}
+.darkgreen {
+    background-color: darkslategray;
+    width: 1280px;
+    height: 77px;
+    position: absolute;
+    margin-top: 300px;
+    z-index: -1;
+    /*   margin-right: -388px;*/
+    position: center;
+}
+#bottomText ul {
+    list-style: none;
+    width: 559px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+    #bottomText ul li {
+        display: inline-block;
+        float: right;
+        z-index: 1;
+    }
+
+        #bottomText ul li a {
+            display: block;
+            color:white;
+            text-decoration: none;
+            width: 186px;
+            text-align: center;
+            margin-top: 325px;
+            font-size: 18pt;
+            font-weight: bold;
+            z-index: 1;
+        }
+
+#bottomText li {
+    height: 1px;
+}
+
+#openthewebofpreu {
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+    
+}
+.preutxt {
+    color: black;
+    position: relative;
+    text-decoration: none;
+    top: 29px;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 22px;
+    margin-top: -2px;
+    padding: 2px;
+}
+#img7 img {
+    width: 400px;
+    height: 400px;
+    margin-top: 54px;
+    position: absolute;
+    top: -740px;
+    right: 1100px;
+    padding: 35px;
+    margin-top: 1000px;
+}
+nav1 ol li {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    right: -10px;
+    font-family:Calibri;
+ font-size:24px;
+}
+
+    nav1 ol li:after {
+        content: ">";
+    }
+
+    nav1 ol li:last-child:after {
+        content: "";
+    }
+
+    nav1 ol li a {
+        text-decoration: none;
+    }
+
+        nav1 ol li a:hover {
+            color: black;
+        }
+
+        nav1 ol li a:active {
+            color: red;
+        }
+#preulist {
+    color: black;
+    
+    top: 45px;
+    font-family: Calibri;
+    font-size: 15px;
+    margin-top: 210px;
+  
+    position: absolute;
+  
+    right:300px;
+    padding: 35px;
+}
+
+
+
+#openpreu {
+    color:grey;
+    top: 50px;
+    font-family: Calibri;
+    font-size: 15px;
+    margin-top:290px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+#txtp {
+    color: black;
+    top: 45px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-top: 375px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+#txtpi {
+    color: black;
+    top: 45px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-top: 400px;
+    position: absolute;
+    right:300px;
+    padding: 35px;
+}
+#txtpir {
+    color:teal;
+    top: 60px;
+    font-family: Calibri;
+    font-size: 25px;
+    margin-top: 438px;
+    position: absolute;
+    right: 301px;
+    padding: 35px;
+}
+#Mpreu {
+    color: grey;
+    top: 50px;
+    font-family: Calibri;
+    font-size: 15px;
+    margin-top: 600px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+
+#txtpira {
+    color:black;
+    top: 45px;
+    font-family: Calibri;
+    font-size: 25px;
+    margin-top: 677px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+
+#Lpreu {
+    color: grey;
+    top: 50px;
+    font-family: Calibri;
+    font-size: 15px;
+    margin-top: 800px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+
+#txtpiraE {
+    color: black;
+    top: 45px;
+    font-family: Calibri;
+    font-size: 25px;
+    margin-top: 900px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+
+.greendown {
+    background-color: darkgray;
+    width: 1280px;
+    height: 77px;
+    position: absolute;
+    margin-top: 1900px;
+    z-index: -1;
+    position: center;
+    right:311px;
+}
+
+
+
+    #downText ul li {
+        display: inline-block;
+        float: right;
+        z-index: 1;
+    }
+
+        #downText ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            width: 186px;
+            position: absolute;
+            margin-top: 1900px;
+            font-size: 18pt;
+            font-weight: bold;
+            z-index: 1;
+            right: 311px;
+        }
+
+#downText li {
+    height: 1px;
+}
+
+#morepkacess {
+    color: grey;
+    top: 90px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-top: 290px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+#txtpire {
+    color: black;
+    top: 200px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-top: 301px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+
+
+#txtpR {
+    color: black;
+    top: 45px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-top: 396px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+#txtpiE {
+    color: black;
+    top: 45px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-top: 425px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+#ielnd {
+    color: black;
+    top:500px;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-top: 425px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+
+#txtpiraOO {
+    color:brown;
+    top: 410px;
+    font-family: Calibri;
+    font-size: 29px;
+    margin-top: 425px;
+    position: absolute;
+    right: 300px;
+    padding: 35px;
+}
+
+#img8 img {
+    float: right;
+    width: 450px;
+    height: 450px;
+    right: 500px;
+    margin-top: 1000px;
+    position: absolute;
+}
+
+#img9 img {
+    float: right;
+    width: 450px;
+    height: 450px;
+    right: 1000px;
+    margin-top: 1000px;
+    position: absolute;
+}
+
+.greendowni {
+    background-color: darkgray;
+    width: 1280px;
+    height: 77px;
+    position: absolute;
+    margin-top: 1802px;
+    z-index: -1;
+    position: center;
+    right: 311px;
+}
+
+
+#containeri {
+    width: 1280px;
+    height: 2004px;
+    margin: 0 auto;
+    box-shadow: -25px 0px 25px -24px #b8cece, 25px 0px 25px -24px #b8cece;
+}
+
+
+#img10 img {
+  right:200px;
+    width: 250px;
+    height: 250px;
+    right: 1000px;
+    margin-top: -10px;
+    position: absolute;
+
+}
+#txtpiEi {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-size: 19px;
+  
+    right:320px;
+    padding-top:-20px;
+}
+
+
+
+
+/*כותרות*/
+#titleweb h1 {
+      text-shadow: 0 10px 9px #c4b59d, 0 -6px 4px darkgray;
+    letter-spacing: 1px;
+    font-family: Calibri;
+    font-size: 47px;
+    text-align: right;
+    right: 400px;
+    color: #565656;
+    position: absolute;
+    top: 240px;
+ 
+}
+
+
+
+/*טקסט - פותח על ידי*/
+#names {
+    margin-top: 100px;
+    font-size: 21px;
+    width: 708px;
+    font-family:Calibri;
+    line-height: 15.5px;
+    margin-top: 200px;
+ text-align:right;
+   
+}
+
+
+#project {
+    margin-top: 30px;
+    font-size: 21px;
+    width: 708px;
+    font-family:Calibri
+    letter-spacing: 1px;
+    margin-top: 64px;
+    line-height: 116.5px;
+}
+
+#coursName {
+    margin-top: 18px;
+   
+    font-family: Calibri;
+    color: black;
+    margin-right: 19px;
+}
+/*סרטון*/
+#screen {
+    margin-top: 30px;
+}
+
+#aboutLogo {
+    margin-top: 86px;
+    text-align: center;
+    width: 300px;
+    margin-right: 441px;
+    margin-left: auto;
+    font-size: 17pt;
+    text-decoration: none;
+    padding-bottom: 149px;
+}
+.downtext {
+    background-color: darkgray;
+    width: 1280px;
+    height: 77px;
+    position: absolute;
+    margin-top: 300px;
+    z-index: -1;
+    /*   margin-right: -388px;*/
+    position: center;
+}
+#preuV{
+    right:600px;
+    position:absolute;
+    padding-top:1000px;
+}
+/*זכויות יוצרים של הסרטון*/
+#aboutthevido {
+    font-size: 25px;
+   position:absolute;
+   right:725px;
+    padding-top: 1300px;
+ 
+}
+
+#connectionwithus {
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    text-shadow: 0 10px 9px #c4b59d, 0 -6px 4px #5d5656;
+}
+
+.connection {
+    font-size: 30px;
+    padding-top: 100px;
+    font-family: Calibri;
+    position: absolute;
+    right: 180px;
+}
+
+.O{
+    font-family:Calibri;
+    font-size:48px;
+   padding:20px;
+ 
+}
+
+#name {
+    padding: 2px;
+    position:absolute;
+    right:400px;
+}
+
+#name1 {
+    padding: 2px;
+    position: absolute;
+    right: 400px;
+}
+
+
+.FLY {
+    font-family: Calibri;
+    font-size: 80px;
+    padding: 20px;
+    right:15px;
+}
+
+#flying {
+    padding: 2px;
+    position: absolute;
+    right: 400px;
+    margin-top: 60px;
+}
+
+#gmail {
+    padding: 2px;
+    position: absolute;
+    right:400px;
+    margin-top: 2px;
+}
+
+#connectionnn{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:100px;
+}
+
+/*תפריט למטה*/
+ #downwebtext ul li a {
+ width: 186px;
+display: block;
+margin-top: 959px;
+color: white;
+text-decoration: none;
+  font-size: 18pt;
+text-align: center;
+font-weight: bold;
+ z-index: 1;
+ right:325px;
+ }
+#downwebtex li {
+    height: 2px;
+}
+
+
+.darkgreeni {
+    background-color:darkslategray;
+    width: 1280px;
+    height: 77px;
+    position: absolute;
+    margin-top: 900px;
+    z-index: -1;
+    /*   margin-right: -388px;*/
+    position: center;
+}
+
+#downwebplace ul li a {
+    width: 186px;
+    display: block;
+    margin-top: 1800px;
+    color: white;
+    text-decoration: none;
+    font-size: 18pt;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+    right: 325px;
+}
+
+#downwebplace li {
+    height: 2px;
+}
+
+
+.darkgreenip {
+    background-color: darkslategray;
+    width: 1280px;
+    height: 77px;
+    position: absolute;
+    margin-top: 1800px;
+    z-index: -1;
+   right:311px;
+    position: center;
+}
+
+
+
+#downwebofperu ul li a {
+    width: 186px;
+    display: block;
+    margin-top: 1800px;
+    color: white;
+    text-decoration: none;
+    font-size: 18pt;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+    right: 325px;
+}
+
+#downwebofperu li {
+    height: 2px;
+}
+
+
+.darkgreenipp {
+    background-color: darkslategray;
+    width: 1280px;
+    height: 77px;
+    position: absolute;
+    margin-top: 1800px;
+    z-index: -1;
+    right: 311px;
+    position: center;
+}
+
+
+/*תפריט תחתון של דף אודות*/
+
+#downwebofodot ul li a {
+    width: 186px;
+    display: block;
+    margin-top: -10px;
+    color:black;
+    text-decoration: none;
+    font-size: 18pt;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+    right: 325px;
+}
+
+#downwebofodot li {
+    height: 2px;
+}
+/*מסך מפות*/
+#map {
+    font-family: Calibri;
+    position: absolute;
+    right: 900px;
+    font-size: 25px;
+}
+
+#sitemap {
+    position: absolute;
+    right: 400px;
+    font-size: 25px;
+}
+#sitemap1 {
+    position: absolute;
+    right: 400px;
+    margin-top: -347px;
+    font-size: 25px;
+}
+
+#sitemap2 {
+    position: absolute;
+    right: 600px;
+    margin-top: -347px;
+    font-size: 25px;
+}
+#sitemap3 {
+    position: absolute;
+    right: 800px;
+    margin-top: -347px;
+    font-size: 25px;
+}
+
+#sitemap4 {
+    position: absolute;
+    right: 1000px;
+    margin-top: -347px;
+ 
+    font-size: 25px;
+}
+/*תפריט תחתון לדף מפות*/
+#downwebmap ul li a {
+    text-decoration: none;
+    width: 186px;
+      display: block;
+      margin-top: 1580px;
+     font-size: 18pt;
+     text-align: center;
+    color: white;
+       z-index: 1;
+   font-weight: bold;
+   right: 325px;
+  
+
+  
+}
+
+
+.darkgreenio {
+    background-color: darkslategray;
+    width: 1280px;
+    height: 77px;
+    position: absolute;
+    margin-top: 1500px;
+    position: center;
+}
+
